@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './View.css';
-import { ProductContext } from '../../contexts/productContext';
-import { getProduct, getUser } from '../../Firebase/Config';
+import { getUser } from '../../Firebase/Config';
 
 
 function View() {

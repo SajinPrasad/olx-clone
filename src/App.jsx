@@ -26,12 +26,14 @@ function App() {
       <ProductProvider>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/signup' element={<Signup />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/create' element={<Create />} />
           <Route path='/view' element={<View />} />
         </Routes>
       </ProductProvider>
+      <Routes>
+      <Route path='/signup' element={<Signup />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/create' element={<Create />} />
+      </Routes>
     </div>
   );
 }
